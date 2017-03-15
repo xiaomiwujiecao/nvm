@@ -1,31 +1,31 @@
-# Node Version Manager [![Build Status](https://travis-ci.org/creationix/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.33.1-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
+# Node 版本控制 [![Build Status](https://travis-ci.org/creationix/nvm.svg?branch=master)][3] [![nvm 版本](https://img.shields.io/badge/version-v0.33.1-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+## 正文表格
 
-- [Installation](#installation)
-  - [Install script](#install-script)
-  - [Verify installation](#verify-installation)
-  - [Manual install](#manual-install)
-  - [Manual upgrade](#manual-upgrade)
-- [Usage](#usage)
-  - [Long-term support](#long-term-support)
-  - [Migrating global packages while installing](#migrating-global-packages-while-installing)
+- [安装](#installation)
+  - [安装脚本](#install-script)
+  - [验证安装](#verify-installation)
+  - [手动安装](#manual-install)
+  - [手动升级](#manual-upgrade)
+- [使用](#usage)
+  - [长期支持](#long-term-support)
+  - [安装时迁移全局包](#migrating-global-packages-while-installing)
   - [io.js](#iojs)
-  - [System version of node](#system-version-of-node)
-  - [Listing versions](#listing-versions)
+  - [node的系统版本](#system-version-of-node)
+  - [列出版本](#listing-versions)
   - [.nvmrc](#nvmrc)
-  - [Deeper Shell Integration](#deeper-shell-integration)
+  - [深度 Shell集成](#deeper-shell-integration)
     - [zsh](#zsh)
-      - [Calling `nvm use` automatically in a directory with a `.nvmrc` file](#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file)
-- [License](#license)
-- [Running tests](#running-tests)
+      - [使用`.nvmrc`文件在一个目录自动调用 `nvm use` ](#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file)
+- [协议](#license)
+- [运行测试](#running-tests)
 - [Bash completion](#bash-completion)
-  - [Usage](#usage-1)
-- [Compatibility Issues](#compatibility-issues)
-- [Installing nvm on Alpine Linux](#installing-nvm-on-alpine-linux)
-- [Problems](#problems)
+  - [使用](#usage-1)
+- [兼容性问题](#compatibility-issues)
+- [在Alpine Linux上安装nvm](#installing-nvm-on-alpine-linux)
+- [问题](#problems)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
